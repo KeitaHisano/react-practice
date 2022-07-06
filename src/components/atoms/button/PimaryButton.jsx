@@ -2,11 +2,11 @@ import styled from "styled-components";
 import { BaseButton } from "./BaseButton";
 
 export const PrimaryButton = (props) => {
-  const { children } = props;
+  const { children, onClick } = props;
 
   return (
     <>
-      <PButton>{children}</PButton>
+      <PButton onClick={onClick}>{children}</PButton>
     </>
   );
 };

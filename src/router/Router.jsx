@@ -7,6 +7,7 @@ import { Page404 } from "../Page404";
 import { Atom } from "../Atom";
 import { Top } from "../components/pages/Top";
 import { Users } from "../components/pages/Users";
+import { Api } from "../components/pages/Api";
 import { DefaultLayout } from "../components/templetes/DefaultLayout";
 import { HeaderOnlyLayout } from "../components/templetes/HeaderOnlyLayout";
 
@@ -69,6 +70,11 @@ export const Router = () => {
         <Route path="/Atom">
           <DefaultLayout>
             <Atom />
+          </DefaultLayout>
+        </Route>
+        <Route path="/Api">
+          <DefaultLayout>
+            <Api />
           </DefaultLayout>
         </Route>
         <Route path="*">

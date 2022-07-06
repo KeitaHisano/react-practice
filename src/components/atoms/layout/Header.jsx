@@ -11,6 +11,7 @@ export const Header = () => {
       <SLink to="/Page2">Page2</SLink>
       <SLink to="/Practice">Practice</SLink>
       <SLink to="/Atom">Atom</SLink>
+      <SLink to="/Api">Api</SLink>
     </SHeader>
   );
 };
